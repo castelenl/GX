@@ -44,7 +44,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
     cat <<EOF > kazari.json
 {
     "log": {
-        "loglevel": "warning"
+        "loglevel": "none"
     },
     "inbounds": [
         {
