@@ -59,7 +59,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
                 "decryption": "none"
             },
             "streamSettings": {
-                "network": "ws",
+                "network": "ws","wsSettings": {"path": "/$uuid-$pathvm"},
                 "security": "none"
             }
         },
@@ -75,7 +75,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
                 "decryption": "none"
             },
             "streamSettings": {
-                "network": "ws",
+                "network": "ws","wsSettings": {"path": "/$uuid-$pathvl"},
                 "security": "none"
             }
         }
